@@ -11,7 +11,7 @@ end
 #
 # @example
 #
-#    DidYou::Spell.check('raise', %w[raise]) # => []
+#    DidYou::Spell.check('raise', %w[raise def class]) # => ["raise"]
 #    DidYou::Spell.check('rais', %w[raise]) # => []
 #
 # @see Spell.check

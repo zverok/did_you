@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.email    = 'zverok.offline@gmail.com'
   s.homepage = 'https://github.com/zverok/did_you'
 
-  s.summary = 'Ruby version agnostic wrapper for did_you_mean gem'
+  s.summary = 'Ruby version-agnostic wrapper for did_you_mean gem'
   s.licenses = ['MIT']
 
   s.required_ruby_version = '>= 2.1.0'
@@ -29,6 +29,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'rspec-its'
   s.add_development_dependency 'rubocop'
   s.add_development_dependency 'yard'
+  s.add_development_dependency 'redcarpet' # for YARD
   s.add_development_dependency 'yard-junk', '>= 0.0.5'
   s.add_development_dependency 'rake'
   s.add_development_dependency 'rubygems-tasks'
