@@ -1,0 +1,9 @@
+AllCops:
+  Include:
+    - 'lib/**/*'
+    - 'spec/**/*'
+  Exclude:
+    - 'Rakefile'
+    - 'Gemfile'
+    - '*.gemspec'
+  DisplayCopNames: true
