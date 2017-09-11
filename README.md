@@ -1,5 +1,8 @@
 # `DidYou::Spell` -- small wrapper around `did_you_mean`
 
+[![Gem Version](https://badge.fury.io/rb/did_you.svg)](http://badge.fury.io/rb/did_you)
+[![Build Status](https://travis-ci.org/zverok/did_you.svg?branch=master)](https://travis-ci.org/zverok/did_you)
+
 Have you seen this thing in new Ruby (2.3+)?
 
 ```ruby
