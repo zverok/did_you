@@ -20,6 +20,16 @@ for Ruby 2.1-2.2) has one more different interface.
 `did_you` solves this problem by providing simple, Ruby version-agnostic inteface to `did_you_mean`
 gem.
 
+**Important:** This library's **sole** purpose is providing simple, consisten interface between
+different `did_you_mean` versions. If you only target version is Ruby 2.4, you can just go with
+`did_you_mean`'s current way:
+
+```ruby
+DidYouMean::SpellChecker
+  .new(dictionary: %w[param return tag abstract])
+  .correct('params')
+```
+
 ## Usage
 
 Install it as a `gem did_you` or add `gem 'did_you'` to your `Gemfile`. (On Ruby < 2.3 it will install
